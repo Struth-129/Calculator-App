@@ -53,7 +53,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="+"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
 
@@ -96,7 +96,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="-"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
 
@@ -139,7 +139,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="*"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
 
@@ -166,7 +166,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="."
-            android:onClick="onDigit"
+            android:onClick="onDecimalPoint"
             />
         <Button
             android:id="@+id/Divide"
@@ -174,7 +174,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="/"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
         <Button
             android:id="@+id/Clear"
@@ -201,7 +201,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="="
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             />
 
 
